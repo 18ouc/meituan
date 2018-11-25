@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main4Activity"
+    android:background="@drawable/tp15">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/abc"
+      android:textSize="14dp"
+      android:gravity="center_vertical"
+      android:textColor="#FF0000"
+        android:layout_below="@+id/btn_Back4"/>
+    <Button
+        android:id="@+id/btn_Back4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FF0000"
+        android:background="@drawable/btn1"
+        android:text="返回" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

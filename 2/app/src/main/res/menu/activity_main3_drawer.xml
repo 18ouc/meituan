@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+
+    >
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_camera"
+            android:title="         我的店铺" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:title="         我的订单" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:title="         我的资产" />
+        <item
+            android:id="@+id/nav_manage"
+            android:title="       我的购物车" />
+    </group>
+
+    <item android:title="注册与登录">
+        <menu>
+            <item
+                android:id="@+id/nav_register"
+                android:title="         注册账号" />
+            <item
+                android:id="@+id/nav_leave"
+                android:title="         退出账号" />
+        </menu>
+    </item>
+
+</menu>

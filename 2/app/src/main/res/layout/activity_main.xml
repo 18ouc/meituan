@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/zhuye"
+    tools:context=".MainActivity">
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /> -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="美团"
+            android:textColor="#EAADEA"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_marginTop="20dip"
+            android:layout_toLeftOf="@+id/tv_title"
+            android:text="账号"
+            android:textColor="#FF0000"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/et_Account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_Account"
+            android:layout_alignBottom="@+id/tv_Account"
+            android:layout_toRightOf="@+id/tv_Account"
+            android:singleLine="true"
+            android:maxLength="8"
+            android:ems="10"
+            android:maxLines="20" />
+
+        <TextView
+            android:id="@+id/tv_Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_Account"
+            android:layout_alignLeft="@id/tv_Account"
+            android:layout_marginTop="19dp"
+            android:text="密码"
+            android:textColor="#FF0000"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/et_Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_Password"
+            android:layout_alignBottom="@+id/tv_Password"
+            android:layout_toRightOf="@+id/tv_Password"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:ems="10"
+            android:maxLines="20" />
+
+        <CheckBox
+            android:id="@+id/cb_password"
+            android:layout_toRightOf="@+id/et_Password"
+            android:layout_above="@+id/btn_Log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <Button
+            android:id="@+id/btn_Register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Log"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/btn1"
+            android:textColor="#FF0000"
+            android:text="新用户注册" />
+
+        <Button
+            android:id="@+id/btn_Log"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/et_Password"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/btn_2"
+            android:textColor="#FF0000"
+            android:textSize="25dp"
+            android:text="登录" />
+
+        <Button
+            android:id="@+id/btn_Forget"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn_Log"
+            android:layout_alignParentLeft="true"
+            android:background="@drawable/btn1"
+            android:textColor="#FF0000"
+            android:text="服务条款" />
+
+        <TextView
+            android:id="@+id/tv_Warning3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:textColor="#FA8072"
+            android:text="登录即代表阅读并同意服务条款" />
+
+        <Button
+            android:id="@+id/btn_Leave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:textColor="#FF0000"
+            android:background="@drawable/btn1"
+            android:text="退出" />
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

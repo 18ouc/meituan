@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Main3Activity"
+    tools:showIn="@layout/app_bar_main3"
+    android:orientation="vertical"
+    android:background="@drawable/tp2"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:id="@+id/et_Item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   图片           名称      位置      店主"
+        android:textColor="#FF0000"
+        android:textStyle="italic"
+        android:textSize="25dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/et_Item">
+    </android.support.v7.widget.RecyclerView>
+
+        <TextView
+            android:id="@+id/tv_ts3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:textStyle="italic"
+            android:textSize="25sp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

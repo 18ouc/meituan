@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">美团</string>
+    <string name="title_activity_scrolling">服务条款</string>
+    <string name="large_text">
+
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_plus1">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">店铺名称</string>
+    <string name="prompt_password">店铺位置</string>
+    <string name="action_sign_in">添加店铺</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main6">Main6Activity</string>
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="abc">                美团_服务条款\n首先，感谢您抽出宝贵的时间阅读服务条款。\nAPP实现功能\n1.用户的登录注册。\n2.店铺的增删。\n3.店铺内商品的增删查改。\n4.点击商品的结算按钮购买商品。\n5.查看订单。\n6.一些额外的辅助小功能。\n由于项目时间紧张，完成质量不是很高，如果有什么不足还请同行多多指教。\n对于本APP有什么好的建议和想法可以发送电子邮箱：1171613053@qq.com\n再次感谢您的阅读。\n 2018.11.25 DingZezhong</string>
+</resources>
